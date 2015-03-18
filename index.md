@@ -58,7 +58,7 @@ Link to a collection resource representing a list of subscribe-able events.
 ---
 
 Contents of this page are intended for standardization and are released 
-under [CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
+under [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)
 license by Irakli Nadareishvili. 2015.
 
 <br/>
