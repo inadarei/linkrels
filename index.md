@@ -6,7 +6,7 @@ title: Linke Relations
 # Link Relations
 
 
-## 1. Saga Workflows
+## 1. Supporting: Saga Workflows
 
 Link Relations for Long-Lived Compensating Transactions (Sagas)
 
@@ -32,7 +32,7 @@ Link to a resource representing information about a compensating transaction for
 <br/>
 <br/>
 
-## 2. Event-Driven Workflows 
+## 2. Supporting: Event-Driven Workflows 
 
 Link Relations for an Even-Driven (E.g. Pubsubhubbub) Hypermedia Workflow
 
