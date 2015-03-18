@@ -41,16 +41,16 @@ Link Relations for an Even-Driven (E.g. Pubsubhubbub) Hypermedia Workflow
 - <http://en.wikipedia.org/wiki/PubSubHubbub>
 - [Registered `hub` relation](http://www.iana.org/assignments/link-relations/link-relations.xhtml)
 
-### <a name="sub">rel="sub"
+### <a name="sub"></a>rel="sub"
 
 When included in a resource representation of an event, the "sub" (subscription) link relation MAY identify a target resource that represents the ability to subscribe to the pub/sub  event-type resource in the link context. 
 
-### <a name="unsub">rel="unsub"
+### <a name="unsub"></a>rel="unsub"
 
 When included in a resource representation of an event, the "unsub" (subscription cancellation) link relation MAY identify a target resource that represents the ability to un-subscribe from the pub/sub event-type resource in the link context. 
 
 
-### <a name="events">rel="events"
+### <a name="events"></a>rel="events"
 
 Link to a collection resource representing a list of subscribe-able events.
 
