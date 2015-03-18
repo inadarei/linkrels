@@ -1,2 +1,4 @@
-# linkrels
-Definitions For Hypermedia Link Relations
+Link Relations
+==========
+
+Assorted List of Link Relations
