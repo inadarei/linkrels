@@ -26,7 +26,7 @@ coordinating a
 ### <a name="compensatingtx"></a>rel="compensatingtx"
 
 Link to a resource representing information about a compensating transaction for
- each member transaction a
+ each member transaction of a
 [Long-Lived Compensating Transaction](http://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf)
 
 <br/>
@@ -41,6 +41,14 @@ Link Relations for an Even-Driven (E.g. Pubsubhubbub) Hypermedia Workflow
 - <http://en.wikipedia.org/wiki/PubSubHubbub>
 - [Registered `hub` relation](http://www.iana.org/assignments/link-relations/link-relations.xhtml)
 
+### <a name="ping"></a>rel="ping"
+
+When included in a resource representation of a hub, the "ping" link relation MAY identify a 
+target resource that can be accessed to notify a hub about the occurrence of 
+an event firing. Ping message SHOULD NOT contain any data except for the reference
+to where a hub should retrieve information about the pinged event from.
+
+
 ### <a name="sub"></a>rel="sub"
 
 When included in a resource representation of an event, the "sub" (subscription) link relation MAY identify a target resource that represents the ability to subscribe to the pub/sub  event-type resource in the link context. 
@@ -48,6 +56,10 @@ When included in a resource representation of an event, the "sub" (subscription)
 ### <a name="unsub"></a>rel="unsub"
 
 When included in a resource representation of an event, the "unsub" (subscription cancellation) link relation MAY identify a target resource that represents the ability to un-subscribe from the pub/sub event-type resource in the link context. 
+
+### <a name="event"></a>rel="event"
+
+Resource representation of a subscribe-able events.
 
 
 ### <a name="events"></a>rel="events"
